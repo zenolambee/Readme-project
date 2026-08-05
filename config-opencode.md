@@ -1,5 +1,12 @@
 # OpenCode Configuration
 
+Gunakan perintah berikut untuk membuka atau menghapus file konfigurasi saat diperlukan:
+
+```bash
+nano ~/.config/opencode/opencode.json
+rm ~/.config/opencode/opencode.json
+```
+
 Simpan konfigurasi ini sebagai:
 
 ```bash
