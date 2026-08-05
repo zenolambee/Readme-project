@@ -1,6 +1,47 @@
 # Readme-project
 
-## OpenCode configuration
+## Setup
+
+### Install Git
+
+Ubuntu/Debian:
+
+```bash
+sudo apt update
+sudo apt install -y git
+```
+
+### Install Node.js
+
+Ubuntu/Debian:
+
+```bash
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt install -y nodejs
+```
+
+Check installation:
+
+```bash
+node -v
+npm -v
+```
+
+### Install OpenCode
+
+Install OpenCode globally:
+
+```bash
+npm install -g opencode-ai
+```
+
+Check installation:
+
+```bash
+opencode --version
+```
+
+### OpenCode configuration
 
 Copy this JSON into `/root/.config/opencode/opencode.json`:
 
