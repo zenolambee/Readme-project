@@ -94,6 +94,6 @@ opencode
 
 ## Notes
 
-- README ini dibuat khusus untuk instalasi dasar.
+- File ini dibuat khusus untuk instalasi dasar.
 - Jika base URL gateway berubah, sesuaikan bagian `baseURL` di konfigurasi.
 - Jika perlu, file ini bisa dikembangkan menjadi panduan lengkap untuk VPS Ubuntu.
