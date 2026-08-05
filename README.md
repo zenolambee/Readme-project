@@ -1,49 +1,57 @@
 # Readme-project
 
-## Setup
+## Setup Guide
 
-### Install Git
+This repository documents a simple setup flow for installing the tools you need before using OpenCode.
 
-Ubuntu/Debian:
+### 1. Install Git
+
+Ubuntu / Debian:
 
 ```bash
 sudo apt update
 sudo apt install -y git
 ```
 
-### Install Node.js
+Verify:
 
-Ubuntu/Debian:
+```bash
+git --version
+```
+
+### 2. Install Node.js
+
+Ubuntu / Debian:
 
 ```bash
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs
 ```
 
-Check installation:
+Verify:
 
 ```bash
 node -v
 npm -v
 ```
 
-### Install OpenCode
+### 3. Install OpenCode
 
-Install OpenCode globally:
+Install OpenCode globally with npm:
 
 ```bash
 npm install -g opencode-ai
 ```
 
-Check installation:
+Verify:
 
 ```bash
 opencode --version
 ```
 
-### OpenCode configuration
+### 4. Configure OpenCode
 
-Copy this JSON into `/root/.config/opencode/opencode.json`:
+Save this file as `/root/.config/opencode/opencode.json`:
 
 ```json
 {
@@ -166,4 +174,4 @@ Copy this JSON into `/root/.config/opencode/opencode.json`:
 
 - Use the JSON above as the main OpenCode config.
 - Save it exactly in `/root/.config/opencode/opencode.json`.
-- Adjust `baseURL` only if your gateway address changes.
+- Change `baseURL` only if your gateway address changes.
