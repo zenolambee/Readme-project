@@ -1,13 +1,8 @@
 # OpenCode Configuration
 
-Gunakan perintah berikut untuk membuka atau menghapus file konfigurasi saat diperlukan:
+Gunakan file ini untuk isi konfigurasi OpenCode saja.
 
-```bash
-nano ~/.config/opencode/opencode.json
-rm ~/.config/opencode/opencode.json
-```
-
-Simpan konfigurasi ini sebagai:
+Simpan sebagai:
 
 ```bash
 /root/.config/opencode/opencode.json
@@ -133,5 +128,4 @@ Simpan konfigurasi ini sebagai:
 ## Notes
 
 - File ini hanya berisi konfigurasi OpenCode.
-- Simpan di lokasi yang sesuai sebelum menjalankan OpenCode.
 - Ubah `baseURL` bila alamat gateway berubah.
